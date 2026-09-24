@@ -49,7 +49,7 @@ BM25 provides lexical matching, while vector retrieval provides semantic matchin
 ## Installation
 
 ```bash
-pip install rag-search
+pip install rag-search-kit
 ```
 
 ## Basic Usage

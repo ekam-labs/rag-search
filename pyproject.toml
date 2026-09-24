@@ -1,5 +1,5 @@
 [project]
-name = "rag-search"
+name = "rag-search-kit"
 version = "0.1.0"
 description = "A hybrid retrieval component for RAG pipelines."
 readme = "README.md"
