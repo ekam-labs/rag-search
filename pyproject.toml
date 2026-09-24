@@ -1,0 +1,21 @@
+[project]
+name = "rag-search"
+version = "0.1.0"
+description = "A hybrid retrieval component for RAG pipelines."
+readme = "README.md"
+authors = [
+    { name = "satyampandya" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "langchain-chroma>=1.1.0",
+    "langchain-core>=1.6.2",
+    "langchain-huggingface>=1.2.2",
+    "rank-bm25>=0.2.2",
+    "ranx>=0.3.21",
+    "sentence-transformers>=6.0.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
